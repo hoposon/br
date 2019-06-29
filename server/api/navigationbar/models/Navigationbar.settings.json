@@ -1,0 +1,21 @@
+{
+  "connection": "default",
+  "collectionName": "navigationbars",
+  "info": {
+    "name": "navigationbar",
+    "description": "navigation bar menu items"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "comment": ""
+  },
+  "attributes": {
+    "mainMenu": {
+      "type": "json"
+    },
+    "subMenu": {
+      "type": "json"
+    }
+  }
+}
